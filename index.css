@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0e9e9;
+  height: auto;
+}
+.logo {
+  position: relative;
+  bottom: -95;
+  left: 100px;
+}
+#parentHeader {
+  position: relative;
+}
+.modal-logo {
+  position: absolute;
+  bottom: 20px;
+}
+.withBorder {
+  border-bottom: 2px dotted red;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+h6,
+h5,
+p,
+table,
+th {
+  font-family: "Open Sans", sans-serif;
+}
+#modalPatientTable{
+  font-size: 11px;
+}
+.text-content{
+  font-size: 11px;
+}
+.title-size{
+  font-size: 12;
+}
